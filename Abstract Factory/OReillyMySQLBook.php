@@ -1,5 +1,7 @@
 <?php
 
+require_once'AbstractMySQLBook.php';
+
 class OReillyMySQLBook extends AbstractMySQLBook {
 
     private $author;

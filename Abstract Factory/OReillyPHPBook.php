@@ -1,5 +1,7 @@
 <?php
 
+require_once'AbstractPHPBook.php';
+
 class OReillyPHPBook extends AbstractPHPBook {
 
     private $author;

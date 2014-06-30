@@ -1,8 +1,7 @@
 <?php
+require_once'OReillyBookFactory.php';
+require_once 'SamsBookFactory.php';
 
-/*
- *   Initialization
- */
 
 writeln('BEGIN TESTING ABSTRACT FACTORY PATTERN');
 writeln('');
